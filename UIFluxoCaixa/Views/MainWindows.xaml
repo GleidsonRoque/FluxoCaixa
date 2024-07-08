@@ -1,0 +1,31 @@
+﻿<Window x:Class="UIFluxoCaixa.Views.MainWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIFluxoCaixa.Views"
+        mc:Ignorable="d"
+        Title="Fluxo de Caixa" Height="580" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="339*"/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Left" Margin="5" Orientation="Horizontal">
+            <Button x:Name="bntCaixa" Margin="5,0,0,0" Width="80" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="WhiteSmoke" BorderBrush="SteelBlue" Click="bntCaixa_Click">
+                <Label Content="Caixa" FontStretch="Condensed" Foreground="SteelBlue"></Label>
+            </Button>
+            <Button x:Name="bntCadastrar" Margin="5,0,0,0" Width="80" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="WhiteSmoke" BorderBrush="SteelBlue" Click="bntCadastrar_Click">
+                <Label Content="Cadastrar" FontStretch="Condensed" Foreground="SteelBlue"></Label>
+            </Button>
+            <Button x:Name="bntRelatorio" Margin="5,0,0,0" Width="80" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="WhiteSmoke" BorderBrush="SteelBlue" Click="bntRelatorio_Click">
+                <Label Content="Relatório" FontStretch="Condensed" Foreground="SteelBlue"></Label>
+            </Button>            
+        </StackPanel>
+        <Grid x:Name="GridInterface" Grid.Row="1">
+        </Grid>
+        
+        <StatusBar Grid.Row="2"></StatusBar>
+    </Grid>
+</Window>
