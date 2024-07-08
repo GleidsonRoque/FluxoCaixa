@@ -6,3 +6,5 @@ por exemplo:
 @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\FluxoCaixa-master\FluxoCaixa-master\DataBase\.Local\DbFluxoCaixa.mdf;Integrated Security=True"
 
 2- set o visual studio para iniciar com a aplicação: UlFluxoCaixa
+
+3 - Inicie o projeto
