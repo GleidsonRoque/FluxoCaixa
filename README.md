@@ -1,7 +1,8 @@
 MTTechne Para acessar a aplicação:
 
-1 - Baixe a aplicação;
+1 - Altere o arquivo caminho do banco de dados local
+Abra classe InfraStructure -> Database -> Connection e informe o seu local
+por exemplo:
+@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\FluxoCaixa-master\FluxoCaixa-master\DataBase\.Local\DbFluxoCaixa.mdf;Integrated Security=True"
 
-2 - Descompact a aplicação de preferencia na unidade C:\
-
-3 - Abra o diretório c:\MTTechne\ProjectMTTechne\UIFluxoCaixa\bin\Release\net8.0-windows e execute o aplicativo:UIFluxoCaixa.exe
+2- set o visual studio para iniciar com a aplicação: UlFluxoCaixa
