@@ -9,8 +9,7 @@ namespace Infrastructure.DataBase
 
         static Connection()
         {
-        
-        connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\FluxoCaixa-master\FluxoCaixa-master\DataBase\.Local\DbFluxoCaixa.mdf;Integrated Security=True";
+            connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\FluxoCaixa-master\FluxoCaixa-master\DataBase\.Local\DbFluxoCaixa.mdf;Integrated Security=True";
         }        
     }
 }
